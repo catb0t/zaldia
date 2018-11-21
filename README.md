@@ -10,6 +10,11 @@ some ideas i have about Pony's default syntax / the semantics you get from the s
 
 * regex literals?
 * utf8 anywhere in a source file
+* functional extensions! Clebsch told us this is a functional language
+  * where's generic map / reduce / filter / reject / each / all / any etc?
+  * map is missing outside "collections/persistent" (???)
+  * they don't "exist" in a zaldia library; they compile to stdlib / normal Pony
+
 * types are on the wrong side of variable init
   * `var String ref x = ...` and `var ref String x = ...` should be allowed
   * `ref String x = ...` should be implicit `let` (except for? default known mutable types)
