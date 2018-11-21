@@ -8,7 +8,8 @@ some ideas i have about Pony's default syntax / the semantics you get from the s
 
 (source-level / syntax changes only, so I don't have to figure out the types of things or eval expressions)
 
-* regex literals? does stdlib have regexes?
+* regex literals?
+* utf8 anywhere in a source file
 * types are on the wrong side of variable init
   * `var String ref x = ...` and `var ref String x = ...` should be allowed
   * `ref String x = ...` should be implicit `let` (except for? default known mutable types)
